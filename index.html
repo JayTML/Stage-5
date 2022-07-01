@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Stage 5</title>
+	<link href="CSS/style.css" rel="stylesheet" type="text/css">
+	<link href="CSS/camera.css" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/camera.js"></script>
+	<script src="scripts/jquery.easing.1.3.js"></script>
+	<script src="scripts/jquery.mobile.customized.min.js"></script>
+	
+	
+	</head>
+<!--  -------- end head ---------- end head ---------- end head ---------- end head ---------- end head ---------- end head ---------- end head ---------- end head ------- -->
+<body>	
+	<div id="container">	
+		<header>
+			<div id="logo">
+				<img src="Images/Header/Logo_03.png" alt="stage 5 logo"> 
+			</div><!-- --------closing logo div------- -->
+				
+				<div id="banner"> 
+					<img src="Images/Header/Flash-Ad_06.png" alt="ipad ad"> 
+			</div><!-- ---------closing banner div-------- -->
+		</header>
+	 <nav>
+	<ul>			
+		<li><a href="index.html">Home</a></li>
+		<li><a href="About.html">About</a></li>	
+		<li><a href="Gallery.html">Gallery</a></li>	
+		<li><a href="News.html">News</a></li>	
+		<li><a href="contact.html">Contact</a></li>	
+    </ul>	
+		
+</nav>	
+		<!-- ----------opening slideshow div --------  -->
+	
+			<div id="SlideshowWrapper">
+		<div id="MySlideshow" class="camera_wrap">
+			<div data-src="Images/Home/feature.jpg"></div>
+			<div data-src="Images/Home/Left.jpg"></div>
+			<div data-src="Images/Home/Middle.jpg"></div>
+			<div data-src="Images/Home/Right.jpg"></div>
+		</div>
+		<div class="clearMe"></div>
+	</div>
+	
+	<script>
+		$("#MySlideshow").camera({
+			height: "451px",
+			fx: "simpleFade" ,
+		});
+	</script>
+		
+		<!-- ----------closing slideshow div-------- -->
+			<div id="wrapper">
+					<div class="col">
+					<img src="Images/Home/Left.jpg" alt="Domed building">
+					<h2>News</h2>
+					<p>Thanks to a new NCAA‐approved seating configuration with custom seating riser installations from Stage 5 Staging, thousands of additional fans were able to attend the NCAA Basketball Tournament in Detroit and Houston on...</p>
+					<h3>Read More</h3>
+				</div><!-- --------end left column------- -->
+				<div class="col">
+					<img src="Images/Home/Middle.jpg" alt="Lighted stage">
+					<h2>About</h2>
+					<p>Stage 5 Staging takes great pride in offering the finest in modular, lightweight, portable performance stage platforms, seating risers and accessories to customers worldwide. In addition to our portable staging products, which are all designed and...</p>
+					<h3>Read More</h3>
+				</div><!-- --------end middle column------- -->
+				<div class="col">
+					<img src="Images/Home/Right.jpg" alt="Brick Building">
+					<h2>Products</h2>
+					<p>Stage 5 Staging has a large selection of portable performance products to help satisfy your performance and event needs. We manufacture only the highest quality of products so they will meet and exceed your expectations. Our products will save you...</p>
+					<h3>Read More</h3>
+				</div><!-- --------end right column------- -->
+			</div><!-- --------end wrapper---------- -->
+		<footer>
+			
+				<div id="footerleft">
+				<ul>
+					<li><a href="home.html">Home</a> |</li>
+					<li><a href="About.html">About</a> |</li>
+					<li><a href="Gallery.html">Gallery</a> |</li>
+					<li><a href="News.html">News</a> |</li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+		</div><!-- -----------------------closing left footer----------------------- -->
+	<div id="footerright"> 
+		<img src="Images/Footer/ARA_23.png" alt="ARA logo">
+		<img src="Images/Footer/Plasa_24.png" alt="plasa logo">
+		<img src="Images/Footer/Citi_25.png" alt="Citi logo">
+			<h5>Copyright &copy; 2014 Stage 5 Staging Company Inc. All right reserved.</h5>
+		</div><!-- --------closing footerright------- -->
+		</footer>
+	</div> <!-- ------------------closing container div------------------- -->
+	</body>
+</html>
